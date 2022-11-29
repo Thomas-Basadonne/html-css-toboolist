@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
@@ -63,7 +65,7 @@ body{
 }
 
 ul{
-    list-style-type: none ;
+    list-style-type: none;
 }
 
 div{
@@ -76,4 +78,31 @@ summary{
 
 span{
     border-radius: 15px;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.Editorial{
+    background-color: #47ADF1;
+}
+
+.Q1{
+    background-color:#9C72E4;
+}
+
+.Recruiting{
+    background-color: #64C0A9;
+}
+
+.Mobile{
+    background-color:#F29E33;
+}
+
+.Website{
+    background-color: #D863A1;
+}
+
+.Sales{
+    background-color:#B0C926;
 }
