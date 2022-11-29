@@ -33,7 +33,9 @@ body{
     width: 50%;
     margin: 40px auto;
     background-color: #FFF;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .bottoni{
@@ -42,10 +44,36 @@ body{
     padding-bottom: 10px;
 }
 
-#botton1{
-    
+#button1{
+    font-size: 16px;
+    background-color:#47ADF1;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 8px 12px;
+
+}
+
+#button2{
+    border-color: rgb(163, 163, 163) ;
+    font-size: 16px;
+    background-color:#FFF;
+    color: rgb(163, 163, 163);
+    border-radius: 8px;
+    padding: 8px 12px;
 }
 
 ul{
     list-style-type: none ;
+}
+
+div{
+    padding-top: 35px;
+}
+
+summary{
+    font-weight: bold;
+}
+
+span{
+    border-radius: 15px;
 }
