@@ -11,7 +11,7 @@ header{
   width: 100%;
   height: 100px;
   padding-top: 20px;
-  background-color: aliceblue;
+  background-color: #FFF;
 }
 
 #nome{
@@ -25,14 +25,25 @@ header{
 }
 
 body{
-    background-color: gray;
+    background-color:#F6F8F9 ;
 }
 
 .container{
-    
+    border-radius: 10px 10px;
     width: 50%;
     margin: 40px auto;
-    background-color: aliceblue;
+    background-color: #FFF;
+    padding: 10px 20px;
+}
+
+.bottoni{
+    border-bottom: 3px solid #F6F8F9;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#botton1{
+    
 }
 
 ul{
