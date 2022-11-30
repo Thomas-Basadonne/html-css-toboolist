@@ -7,28 +7,35 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Generics */
+
+body {
+    background-color: #F6F8F9;
+}
+
 /* header */
 
 header{
   width: 100%;
   height: 100px;
-  padding-top: 20px;
   background-color: #FFF;
+  line-height: 100px;
 }
 
-#nome{
+#nome {
     display: inline;
     text-align: center;
     font-size: 60px;
+    vertical-align: middle;
 }
 
 #logo{
+    margin-left: 15px;
     width: 60px;
+    vertical-align: middle;
 }
 
-body{
-    background-color:#F6F8F9 ;
-}
+/* parte centrale */
 
 .container{
     border-radius: 10px 10px;
@@ -44,24 +51,26 @@ body{
     border-bottom: 3px solid #F6F8F9;
     width: 100%;
     padding-bottom: 10px;
+    
 }
 
-#button1{
+#primary{
     font-size: 16px;
     background-color:#47ADF1;
     color: #FFF;
     border-radius: 8px;
     padding: 8px 12px;
-
+    cursor: pointer;
 }
 
-#button2{
+#outline{
     border-color: rgb(163, 163, 163) ;
     font-size: 16px;
     background-color:#FFF;
     color: rgb(163, 163, 163);
     border-radius: 8px;
     padding: 8px 12px;
+    cursor: pointer;
 }
 
 ul{
